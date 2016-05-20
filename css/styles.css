@@ -1,9 +1,9 @@
-html 
+html
 {
   position: relative;
   min-height: 100%;
 }
-body 
+body
 {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -11,7 +11,7 @@ body
     font-weight: 300;
     font-size: 14px;
     background: #454545;
-    
+
     /* Margin bottom by footer height (sticky)  */
     margin-bottom: 80px;
 }
@@ -19,7 +19,7 @@ body
 {
     background: #378e95;
 }
-.backgroundColor body 
+.backgroundColor body
 {
     background: #16a085; /* Our flat color for background */
 }
@@ -27,16 +27,16 @@ body
 {
     background: #000;
 }
-.backgroundImage body 
+.backgroundImage body
 {
     /* Full background image */
-    background: url('../images/bg1.jpg') no-repeat center center fixed; 
+    background: url('../images/bg1.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-h1, h2, h3, h4, h5, h6 
+h1, h2, h3, h4, h5, h6
 {
     font-weight: 300;
     line-height: normal;
@@ -45,13 +45,14 @@ h1
 {
     font-size: 45px;
 }
-h1.logo 
+
+h1.logo
 {
     font-size: 45px;
-    padding-top: 100px;
+    padding-top: 50px;
     font-family: 'Lemon', cursive;
 }
-h2.logo 
+h2.logo
 {
     font-family: 'Lemon', cursive;
 }
@@ -59,7 +60,7 @@ h2
 {
     font-size: 20px;
 }
-h3.logo 
+h3.logo
 {
     font-family: 'Lemon', cursive;
 }
@@ -67,12 +68,12 @@ h3
 {
     font-size: 17px;
 }
-a 
+a
 {
     color: #fff;
     text-decoration: none;
 }
-a:hover 
+a:hover
 {
     text-decoration: none;
     color: #f0f0f0;
@@ -87,22 +88,22 @@ a, button
 
 /*********************************/
 /*********** Countdown ***********/
-/*********************************/ 
-#countdown 
+/*********************************/
+#countdown
 {
-    
+
 }
 #countdown .countdown_group
 {
     display: inline-block;
     padding: 0px 20px;
 }
-#countdown .countdown_group .countdown_value 
+#countdown .countdown_group .countdown_value
 {
     font-size: 60px;
     display: block;
 }
-#countdown .countdown_group .countdown_help 
+#countdown .countdown_group .countdown_help
 {
     font-size: 15px;
     display: block;
@@ -111,7 +112,7 @@ a, button
 
 /*********************************/
 /******** Form newsletter ********/
-/*********************************/ 
+/*********************************/
 #form_newsletter button
 {
     background-color: #ffffff;
@@ -126,7 +127,7 @@ a, button
     color: #545454;
 }
 
-#form_newsletter_result .alert 
+#form_newsletter_result .alert
 {
     margin-top: 10px;
     border-radius: 0px;
@@ -159,7 +160,7 @@ a, button
     border: 1px solid #fff;
     color: #fff;
 }
-.form-control:focus 
+.form-control:focus
 {
   border-color: #ffffff;
   outline: 0;
@@ -169,7 +170,7 @@ a, button
 
 
 /* Sticky footer */
-#footer 
+#footer
 {
     color: #ffffff;
     position: absolute;
@@ -183,7 +184,7 @@ a, button
 }
 
 /* Footer gradient */
-.backgroundImage #footer, 
+.backgroundImage #footer,
 .backgroundSlider #footer,
 .backgroundVideo #footer
 {
@@ -195,13 +196,13 @@ a, button
     background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
 }
 
-#footer p 
+#footer p
 {
     font-size: 15px;
     margin: 0px;
 }
 
-#footer a 
+#footer a
 {
     color: #ffffff;
     text-decoration: underline;
@@ -215,7 +216,7 @@ a, button
 /*********************************/
 /*********** About us ************/
 /*********************************/
-#about_us 
+#about_us
 {
     display: none;
     background: #ffffff;
@@ -232,11 +233,11 @@ a, button
     text-align: center;
     padding: 100px 10px;
 }
-#about_us h1 
+#about_us h1
 {
     margin-bottom: 20px;
 }
-#about_us p 
+#about_us p
 {
     margin-bottom: 10px;
 }
@@ -244,12 +245,12 @@ a, button
 
 /*********************************/
 /************* .btn **************/
-/*********************************/                  
-.btn 
+/*********************************/
+.btn
 {
     border-radius: 0px;
 }
-.btn-transparent 
+.btn-transparent
 {
     color: #ffffff;
     background: transparent;
@@ -258,7 +259,7 @@ a, button
 .btn-transparent:hover,
 .btn-transparent:focus,
 .btn-transparent:active,
-.btn-transparent.active 
+.btn-transparent.active
 {
   color: #545454;
   background-color: #ffffff;
@@ -268,7 +269,7 @@ a, button
 .btn-facebook:hover,
 .btn-facebook:focus,
 .btn-facebook:active,
-.btn-facebook.active 
+.btn-facebook.active
 {
     color: #ffffff;
     background-color: #3B5998;
@@ -337,30 +338,30 @@ a, button
 
 /*********************************/
 /********* Placeholder ***********/
-/*********************************/  
-.form-control::-webkit-input-placeholder 
+/*********************************/
+.form-control::-webkit-input-placeholder
 {
    color: #ffffff;
 }
 
-.form-control:-moz-placeholder 
+.form-control:-moz-placeholder
 {
-   color: #ffffff;  
+   color: #ffffff;
 }
 
-.form-control::-moz-placeholder 
-{  
-   color: #ffffff;  
+.form-control::-moz-placeholder
+{
+   color: #ffffff;
 }
 
-.form-control:-ms-input-placeholder 
-{  
-   color: #ffffff;  
+.form-control:-ms-input-placeholder
+{
+   color: #ffffff;
 }
 
 /*********************************/
 /************ Others *************/
-/*********************************/ 
+/*********************************/
 .video-btns
 {
     position: absolute;
@@ -379,21 +380,21 @@ a, button
     opacity: 0.2;
 }
 
-.version_theme 
+.version_theme
 {
     margin-bottom: 20px;
 }
 
-.version_theme a 
+.version_theme a
 {
     display: block;
 }
 
-.version_theme a img 
+.version_theme a img
 {
     max-width: 100%;
 }
-.version_theme a h2 
+.version_theme a h2
 {
     margin-bottom: 20px;
 }
@@ -402,12 +403,12 @@ a, button
     padding: 10px 0px;
 }
 
-#contact 
+#contact
 {
     margin: 10px 0px;
 }
 
-#contact a:first-child 
+#contact a:first-child
 {
     margin-right: 20px;
 }
@@ -420,26 +421,26 @@ a, button
     .backgroundVideo body
     {
         /* Full background image because video can't autoplay on mobile & tablet devices */
-        background: url('../images/bg1.jpg') no-repeat center center fixed; 
+        background: url('../images/bg1.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
     }
-    
+
     .video-btns
     {
         position: relative;
         top: 10px;
         left: auto;
         right: auto;
-        
+
         display: none;
     }
 }
 @media (max-width:767px)
 {
-    h1.logo 
+    h1.logo
     {
         padding-top: 10px;
         font-size: 25px;
@@ -449,26 +450,26 @@ a, button
     {
         padding: 0px 10px;
     }
-    
-    #countdown .countdown_group .countdown_value 
+
+    #countdown .countdown_group .countdown_value
     {
         font-size: 30px;
     }
-    
-    #footer p 
+
+    #footer p
     {
         font-size: 11px;
     }
-    
-    #about_us 
+
+    #about_us
     {
         padding: 20px 10px;
     }
-    
-    #about_us p 
+
+    #about_us p
     {
         text-align: left;
     }
-    
-    
+
+
 }
