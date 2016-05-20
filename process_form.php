@@ -2,8 +2,8 @@
 //PROCESS NEWSLETTER FORM HERE
 
 if(!isset($_POST) || !isset($_POST['email']))
-{ 
-    $msg = 'No data has been received.';
+{
+    $msg = 'No se ha recibido ningún dato.';
     echo '<div class="alert alert-danger"><p><i class="fa fa-exclamation-triangle"></i> '.$msg.'</p></div>';
     return false;
 }
@@ -11,7 +11,7 @@ if(!isset($_POST) || !isset($_POST['email']))
 if($_POST['email'] == '')
 {
     //ERROR: FIELD "email" EMPTY
-    $msg = 'Please enter a valid email.';
+    $msg = 'Ingrese un email válido.';
     echo '<div class="alert alert-danger"><p><i class="fa fa-exclamation-triangle"></i> '.$msg.'</p></div>';
     return false;
 }
@@ -37,7 +37,7 @@ fclose($myfile);
 */
 
 //And send success message:
-$msg = 'Your email has been saved successfully.';
+$msg = 'Se ha subscrito exitosamente.';
 echo '<div class="alert alert-success"><p><i class="fa fa-check"></i> '.$msg.'</p></div>';
 return true;
 
