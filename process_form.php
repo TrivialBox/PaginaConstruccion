@@ -16,7 +16,7 @@ if($_POST['email'] == '')
     return false;
 }
 
-$regex = "^([a-z0-9._-]+)@((outlook)|(gmail)|(yahoo)|(hotmail))\.([a-z]{2,5})";
+$regex = "/^([a-z0-9._-]+)@((outlook)|(gmail)|(yahoo)|(hotmail))\.([a-z]{2,5})$/";
 
 if (!preg_match($regex, $_POST['email']))
 {
