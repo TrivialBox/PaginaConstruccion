@@ -9,7 +9,6 @@ $(function () {
 		slides : [
 			{image : 'images/bg1.jpg', title : '', thumb : '', url : ''},
 			{image : 'images/bg2.jpg', title : '', thumb : '', url : ''},
-			{image : 'images/bg3.jpg', title : '', thumb : '', url : ''},
 			{image : 'images/bg4.jpg', title : '', thumb : '', url : ''},
 		]
 	});

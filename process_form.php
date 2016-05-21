@@ -32,18 +32,18 @@ if (!preg_match($regex, $_POST['email']))
 
 //Option 1) Send confirmation email. More info here: http://php.net/manual/es/function.mail.php
 
-/*
-mail("my_email@exemple.com","New subscriber","Email: ".$_POST['email']);
-*/
+
+mail("cristhian.hernandez@trivialbox.com","Nuevo subscriptor","Email: ".$_POST['email']);
+
 
 //Option 2) Save subscriber on TXT file. More info here: http://www.w3schools.com/php/php_file_create.asp
 
-/*
+
 $myfile = fopen("subscribers.txt", "a") or die("Unable to open file!");
 $txt = $_POST['email']."\n";
 fwrite($myfile, $txt);
 fclose($myfile);
-*/
+
 
 //And send success message:
 $msg = 'Se ha subscrito exitosamente.';
