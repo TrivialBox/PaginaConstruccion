@@ -31,9 +31,17 @@ if (!preg_match($regex, $_POST['email']))
 ///////////////////////////////////////////////
 
 //Option 1) Send confirmation email. More info here: http://php.net/manual/es/function.mail.php
+$para      = 'krysthyan.09h@gmail.com';
+$titulo    = 'Subscriptor';
+$mensaje   = 'Hola';
+$cabeceras = 'From: webmaster@example.com' . "\r\n" .
+    'Reply-To: webmaster@example.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
 
+mail($para, $titulo, $mensaje, $cabeceras);
+?>
 
-mail("cristhian.hernandez@trivialbox.com","Nuevo subscriptor","Email: ".$_POST['email']);
+//mail("cristhian.hernandez@trivialbox.com","Nuevo subscriptor","Email: ".$_POST['email']);
 
 
 //Option 2) Save subscriber on TXT file. More info here: http://www.w3schools.com/php/php_file_create.asp
