@@ -3,6 +3,39 @@ html
   position: relative;
   min-height: 100%;
 }
+
+
+figure{
+    top:  100px; 
+    left: 500px;
+    
+    
+	-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+	-moz-transition:-moz-transform 0.3s ease-in-out 0.1s;
+
+	}
+	
+figure img{
+	
+	border-radius:1px ;
+	border:1px groove #999 ;
+	
+	
+	/*sobra de imagenes*/
+	-webkit-box-shadow: 10px 10px 4px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 4px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 4px -8px rgba(0,0,0,0.75);
+	}
+figcaption{
+	font:bold 1em Arial, Helvetica, sans-serif;
+	color:#FFF;
+	text-align:center;
+	margin-top:20px;
+	}
+
+
+
+
 body
 {
     font-family: 'Open Sans', sans-serif;
