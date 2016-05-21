@@ -16,6 +16,15 @@ if($_POST['email'] == '')
     return false;
 }
 
+$regex = "^([a-z0-9._-]+)@((outlook)|(gmail)|(yahoo)|(hotmail))\.([a-z]{2,5})";
+
+if (!preg_match($regex, $_POST['email']))
+{
+    $msg = 'Tu email luce un poco extraño... Prueba con uno más común.';
+    echo '<div class="alert alert-danger"><p><i class="fa fa-exclamation-triangle"></i> '.$msg.'</p></div>';
+    return false;
+}
+
 ///////////////////////////////////////////////
 //Now yo can save subscriber in your database//
 //And send confirmation email if necessary...//
